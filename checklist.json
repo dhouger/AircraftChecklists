@@ -1,0 +1,1440 @@
+{
+    "aircraft": "cessna172",
+    "make": "Cessna",
+    "model": "172",
+    "checklists": [
+        {
+            "checklist": "preflight",
+            "numSort": 1,
+            "displayName": "Pre-Flight Inspection",
+            "linkedEmergencyProcs": [
+
+            ],
+            "sublists": [
+                {
+                    "sublist": "cabin",
+                    "numSort": 1,
+                    "displayName": "Cabin",
+                    "steps": [
+                        {
+                            "step": 1,
+                            "displayName": "Documents",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "A.R.R.O.W",
+                            "expandedInfo": {
+                                "displayType": "list",
+                                "values": [
+                                    "Airworthiness Certificate",
+                                    "Registration Certificate",
+                                    "Radio Station License (int flights)",
+                                    "Operating Handbook",
+                                    "Weight and Balance"
+                                ]
+                            }
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "Control Lock",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "REMOVE"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Ignition Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OFF"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Avionics Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OFF"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Master Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Flaps",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "DOWN"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Fuel Quantity",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHECK"
+                        },
+                        {
+                            "step": 8,
+                            "displayName": "Master Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OFF"
+                        },
+                        {
+                            "step": 9,
+                            "displayName": "Fuel Valve",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON BOTH"
+                        }
+                    ]
+                },
+                {
+                    "sublist": "empennage",
+                    "numSort": 2,
+                    "displayName": "Empennage",
+                    "steps":[
+                        {
+                            "step": 1,
+                            "displayName": "Empennage Surface",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "Baggage Door",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Horizontal Stabilizer",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "SECURE"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Elevator",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "FREE & SECURE"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Rudder",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "FREE & SECURE"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Tail Tie-down",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "DISCONNECT"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Lights & Antenna",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 8,
+                            "displayName": "ELT Antenna",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK",
+                            "expandedInfo": {
+                                "displayType": "text",
+                                "values": [
+                                    "Emergency Locator Transmitter"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "sublist": "rightWing",
+                    "numSort": 3,
+                    "displayName": "Right Wing",
+                    "steps": [
+                        {
+                            "step": 1,
+                            "displayName": "Flap",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "FREE & SECURE"
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "aileron",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "FREE & SECURE"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Lights & Wingtip",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Leading Edge",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Wing Tie-down",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "DISCONNECT"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Main Wheel Tire & Brake",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Fuel Quick Drain",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "SAMPLE"
+                        },
+                        {
+                            "step": 8,
+                            "displayName": "Fuel Quantity",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "VISUAL CHK"
+                        },
+                        {
+                            "step": 9,
+                            "displayName": "Fuel Filler Cap",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "SECURE"
+                        }
+                    ]
+                },
+                {
+                    "sublist": "nose",
+                    "numSort": 4,
+                    "displayName": "Nose",
+                    "steps": [
+                        {
+                            "step": 1,
+                            "displayName": "Engine Oil",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK LEVEL (Min 6 qts)"
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "Strainer Drain",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "SAMPLE/CHK (Fuel Selector Drain Valve Sample/CHK P Model 172"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Prop/Spinner",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Air Filter",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK CLEAR"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Landing Light",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Nose Strut/Tire",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Static Port",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK OPEN"
+                        }
+                    ]
+                },
+                {
+                    "sublist": "leftWing",
+                    "numSort": 5,
+                    "displayName": "Left Wing",
+                    "steps": [
+                        {
+                            "step": 1,
+                            "displayName": "Main Wheel Tire & Brake",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "Fuel Quick Drain",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "SAMPLE"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Fuel Quantity",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "VISUALLY CHK"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Fuel Filler Cap",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "SECURE"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Pitot Tube Cover",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "REMOVE/CHK"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Stall Warning Opening",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Fuel Tank Vent",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OPEN"
+                        },
+                        {
+                            "step": 8,
+                            "displayName": "Wing Tie-down",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "DISCONNECT"
+                        },
+                        {
+                            "step": 9,
+                            "displayName": "Leading Edge",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 10,
+                            "displayName": "Lights/Wingtip",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 11,
+                            "displayName": "Aileron",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "FREE & SECURE"
+                        },
+                        {
+                            "step": 12,
+                            "displayName": "Flaps",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "FREE & SECURE"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checklist": "engineStart",
+            "numSort": 2,
+            "displayName": "Engine Start",
+            "linkedEmergencyProcs": [],
+            "sublists": [
+                {
+                    "sublist": "beforeStartingEngine",
+                    "numSort": 1,
+                    "displayName": "Before Starting Engine",
+                    "steps":[
+                        {
+                            "step": 1,
+                            "displayName": "Pre-Flight",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "COMPLETE"
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "Seats, Belts, Harnesses",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Fuel Shutoff Valve",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "BOTH"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Avionics Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OFF"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Electrical Equipment",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OFF"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Circuit Breakers",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHECK IN"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Brakes",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "TEST/SET"
+                        }
+                    ]
+                },
+                {
+                    "sublist": "startingEngine",
+                    "numSort": 2,
+                    "displayName": "Starting Engine",
+                    "steps":[
+                        {
+                            "step": 1,
+                            "displayName": "Mixture",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "RICH"
+                        },
+                        {
+                            "step": 2,
+                            "displayName": "Carb Heat",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "COLD"
+                        },
+                        {
+                            "step": 3,
+                            "displayName": "Master Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON"
+                        },
+                        {
+                            "step": 4,
+                            "displayName": "Beacon Light",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON"
+                        },
+                        {
+                            "step": 5,
+                            "displayName": "Prime",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "AS REQUIRED"
+                        },
+                        {
+                            "step": 6,
+                            "displayName": "Throttle",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "OPEN 1/8"
+                        },
+                        {
+                            "step": 7,
+                            "displayName": "Prop Area",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CLEAR"
+                        },
+                        {
+                            "step": 8,
+                            "displayName": "Ignition",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "START"
+                        },
+                        {
+                            "step": 9,
+                            "displayName": "Oil Pressure",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "CHK"
+                        },
+                        {
+                            "step": 10,
+                            "displayName": "Avionics Switch",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON"
+                        },
+                        {
+                            "step": 11,
+                            "displayName": "Radio(s)",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON/SET"
+                        },
+                        {
+                            "step": 12,
+                            "displayName": "Transponder",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "ON/ALT"
+                        },
+                        {
+                            "step": 13,
+                            "displayName": "Wing Flaps",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "UP"
+                        },
+                        {
+                            "step": 14,
+                            "displayName": "Mixture",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": "LEAN"
+                        },
+                        {
+                            "step": 15,
+                            "displayName": "READY TO TAXI",
+                            "value": false,
+                            "type": "message",
+                            "displayVal": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "checklist": "beforeTakeoff",
+            "numSort": 3,
+            "displayName": "Before Takeoff",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Doors",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "CLOSED/LATCHED"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Brakes",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Flight Controls",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "FREE & CORRECT"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Flight Instruments",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "SET"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Fuel Valve",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "RICH"
+                },
+                {
+                    "step": 7,
+                    "displayName": "Trim",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "SET FOR TAKEOFF"
+                },
+                {
+                    "step": 8,
+                    "displayName": "Throttle",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "1700 RPM",
+                    "expandedInfo": {
+                        "displayType": "sublist",
+                        "listType": "bullets",
+                        "values": [
+                            {
+                                "step": 1,
+                                "displayName": "Mags",
+                                "value": false,
+                                "type": "checkbox",
+                                "displayVal": "125 DROP/50 DIFF"
+                            },
+                            {
+                                "step": 2,
+                                "displayName": "Carb Heat",
+                                "value": false,
+                                "type": "checkbox",
+                                "displayVal": "CHK"
+                            },
+                            {
+                                "step": 3,
+                                "displayName": "Engine Instr",
+                                "value": false,
+                                "type": "checkbox",
+                                "displayVal": "CHK"
+                            },
+                            {
+                                "step": 4,
+                                "displayName": "Ammeter",
+                                "value": false,
+                                "type": "checkbox",
+                                "displayVal": "CHK"
+                            },
+                            {
+                                "step": 5,
+                                "displayName": "Suction",
+                                "value": false,
+                                "type": "checkbox",
+                                "displayVal": "CHK"
+                            },
+                            {
+                                "step": 6,
+                                "displayName": "Idle",
+                                "value": false,
+                                "type": "checkbox",
+                                "displayVal": "CHK"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "step": 9,
+                    "displayName": "Throttle",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "BELOW 1000 RPM"
+                },
+                {
+                    "step": 10,
+                    "displayName": "Radios",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "SET"
+                },
+                {
+                    "step": 11,
+                    "displayName": "Transponder",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON ALT"
+                },
+                {
+                    "step": 12,
+                    "displayName": "Lights",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 13,
+                    "displayName": "Throttle Friction Lock",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ADJ"
+                }
+            ]
+        },
+        {
+            "checklist": "normalTakeoff",
+            "numSort": 4,
+            "displayName": "Normal Takeoff",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Wing Flaps",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "0°"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Carb Heat",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "COLD"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Throttle",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "FULL OPEN"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Elevator",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ROTATE 55 KIAS"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Climb Speed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "70⇒80 KIAS"
+                }
+            ]
+        },
+        {
+            "checklist": "enrouteClimb",
+            "numSort": 5,
+            "displayName": "Enroute Climb",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "70⇒85 KIAS"
+                }
+            ]
+        },
+        {
+            "checklist": "cruise",
+            "numSort": 6,
+            "displayName": "Cruise",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Power",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "2000⇒2700 RPM"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Elevator",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "TRIM"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "LEAN"
+                }
+            ]
+        },
+        {
+            "checklist": "beforeLanding",
+            "numSort": 7,
+            "displayName": "Before Landing",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Seats, Belts, Harnesses",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ADJ"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "Rich (<p style=\"color: red\">CHK DENSITY ALT</p>)"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Radio(s)",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "SET"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Landing Light",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Carb Heat",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON [any significant reduction of power]"
+                }
+            ]
+        },
+        {
+            "checklist": "landing",
+            "numSort": 8,
+            "displayName": "Landing",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Final Approach Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "60 KIAS"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Flaps",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "FULL"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Touchdown Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "Slowest Possible Airspeed"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Touchdown",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "MAINS FIRST"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Landing Roll",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "LOWER NOSE GENTLY"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Braking",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "MINIMUM REQ'D"
+                }
+            ]
+        },
+        {
+            "checklist": "afterLanding",
+            "numSort": 9,
+            "displayName": "After Landing",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Transponder",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "Stays on ALT"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Wing Flaps",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "UP"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Carb Heat",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "COLD"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Lights",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "STROBES & LANDING OFF"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Trim",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "RESET"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "LEAN WHEN REQUIRED"
+                }
+            ]
+        },
+        {
+            "checklist": "securingAircraft",
+            "numSort": 10,
+            "displayName": "Securing Aircraft",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Brakes",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Transponder",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Avionics Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 4,
+                    "displayName": "<p style=\"font-weight: bold\">Ignition Grounding</p>",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "CHK"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "Lean 1 in., 1700 rpm 15 sec"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Mixture at 1000 rpm",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "IDLE/CUTOFF"
+                },
+                {
+                    "step": 7,
+                    "displayName": "Ignition",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF/KEYS OUT"
+                },
+                {
+                    "step": 8,
+                    "displayName": "Master Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 9,
+                    "displayName": "Beacon Light",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 10,
+                    "displayName": "Control Lock",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "INSTALL (Fuel selector valve left or right if sloped surface)"
+                }
+            ]
+        }
+    ],
+    "emergencyProcedures": [
+        {
+            "checklist": "engineFailureAfterTakeOff",
+            "sortNum": 1,
+            "displayName": "Engine Failure After Takeoff",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "65 KIAS"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "IDLE CUTOFF"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Fuel Valve",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Ignition Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Doors",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OPEN"
+                }
+            ]
+        },
+        {
+            "checklist": "engineFailureDuringFlight",
+            "sortNum": 2,
+            "displayName": "Engine Failure During Flight",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "65 KIAS [FLAPS UP],\n60 KIAS [FLAPS DOWN]"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Carb Heat",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Primer",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "IN & LOCKED"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Fuel Valve",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "RICH"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Ignition",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "BOTH/START"
+                }
+            ]
+        },
+        {
+            "checklist": "emergencyLandingWithoutPower",
+            "sortNum": 3,
+            "displayName": "Emergency Landing Without Power",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "65 KIAS [FLAPS UP]\n60 KIAS [FLAPS DOWN]"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "IDLE CUTOFF"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Fuel Valve",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Ignition Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Wing Flaps",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "AS REQUIRED"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Master Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 7,
+                    "displayName": "Doors",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OPEN BEFORE TOUCHDOWN"
+                },
+                {
+                    "step": 8,
+                    "displayName": "Touchdown",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "TAIL LOW"
+                },
+                {
+                    "step": 9,
+                    "displayName": "Brakes",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "APPLY HEAVILY"
+                }
+            ]
+        },
+        {
+            "checklist": "engineFireOnGround",
+            "sortNum": 4,
+            "displayName": "Engine Fire On Ground",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "CONTINUE CRANKING TO START ENGINE"
+                },
+                {
+                    "step": 2,
+                    "displayName": "<p style=\"font-style: italics\">Engine Starts</p>",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "POWER 1700 for a few minutes AND THEN SHUTDOWN"
+                },
+                {
+                    "step": 3,
+                    "displayName": "<p style=\"font-style: italics\">No Start</p>",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "SHUTDOWN",
+                    "expandedInfo": {
+                        "displayType": "list",
+                        "listType": "bullets",
+                        "values": [
+                            "THROTTLE FULL OPEN",
+                            "MIXTURE IDLE CUTOFF",
+                            "CONTINUE CRANKING"
+                        ]
+                    }
+                },
+                {
+                    "step": 4,
+                    "displayName": "",
+                    "value": false,
+                    "type": "checkbox",
+                    "customDisplay": {
+                        "numSortVisibility": "hidden"
+                    },
+                    "displayVal": "ENGINE SECURE:",
+                    "expandedInfo": {
+                        "displayType": "list",
+                        "listType": "bullets",
+                        "values": [
+                            "MASTER SWITCH OFF",
+                            "IGNITION OFF",
+                            "FUEL VALVE OFF",
+                            "FIRE EXTINGUISH",
+                            "INSPECT FOR DAMAGE"
+                        ]
+                    }
+                }                
+            ]
+        },
+        {
+            "checklist": "engineFireInFlight",
+            "sortNum": 5,
+            "displayName": "Engine Fire In Flight",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Mixture",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "IDLE CUTOFF"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Fuel Valve",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Master Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Cabin Heat/Air",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 5,
+                    "displayName": "Airspeed",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "100 KIAS OR AS REQ'D TO EXTINGUISH FIRE"
+                },
+                {
+                    "step": 6,
+                    "displayName": "Forced Landing",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "EXECUTE"
+                }
+            ]
+        },
+        {
+            "checklist": "electricalFireInFlight",
+            "sortNum": 6,
+            "displayName": "Electrical Fire In Flight",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Master/Avionics Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 2,
+                    "displayName": "All Other Switches (except ignition)",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Vents/Cabin Air/Heat",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Fire Extinguisher",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "Activate"
+                }
+            ]
+        },
+        {
+            "checklist": "whenFireAppearsOut",
+            "sortNum": 7,
+            "displayName": "When Fire Appears Out",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Master Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Circuit Breakers",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "CHECK, DON'T RESET"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Avionics Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Radio & Electric",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON,\nONE AT A TIME"
+                },
+                {
+                    "step": 5,
+                    "displayName": "VENTILATE CABIN",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": ""
+                }
+            ]
+        },
+        {
+            "checklist": "overVoltageLightOn",
+            "sortNum": 8,
+            "displayName": "Over Voltage Light On",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Avionics Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Master Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Master Switch",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "ON"
+                },
+                {
+                    "step": 4,
+                    "displayName": "Light",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF, IF ON"
+                },
+                {
+                    "step": 5,
+                    "displayName": "",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "TERMINATE FLIGHT"
+                }
+            ]
+        },
+        {
+            "checklist": "ammeterDischarge",
+            "sortNum": 9,
+            "displayName": "Ammeter Discharge",
+            "linkedEmergencyProcs":[],
+            "steps":[
+                {
+                    "step": 1,
+                    "displayName": "Alternator",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "OFF"
+                },
+                {
+                    "step": 2,
+                    "displayName": "Electrical Load",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "REDUCE"
+                },
+                {
+                    "step": 3,
+                    "displayName": "Flight",
+                    "value": false,
+                    "type": "checkbox",
+                    "displayVal": "TERMINATE ASAP"
+                }
+            ]
+        }
+    ]
+}

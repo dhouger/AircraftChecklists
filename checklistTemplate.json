@@ -1,0 +1,37 @@
+{
+    "aircraft": "",
+    "make": "",
+    "model": "",
+    "checklists": [
+        {
+            "checklist": "",
+            "numSort": 1,
+            "displayName": "",
+            "sublists": [
+                {
+                    "sublist": "",
+                    "numSort": 1,
+                    "displayName": "",
+                    "steps": [
+                        {
+                            "step": "",
+                            "numSort": 1,
+                            "displayName": "",
+                            "value": false,
+                            "type": "sublist",
+                            "displayVal": ""
+                        },
+                        {
+                            "step": "",
+                            "numSort": 4,
+                            "displayName": "",
+                            "value": false,
+                            "type": "checkbox",
+                            "displayVal": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
